@@ -36,22 +36,30 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - autoconf
+  - devutils
+  - fig
   - gettext
   - git
+  - gnupg
   - go
   - gpg
+  - hopenpgp-tools
   - httpie
+  - hyper
   - sqlite
   - mcrypt
   - nmap
   - node
   - nvm
   - php
+  - pinentry-mac
   - ssh-copy-id
   - readline
   - openssl
   - wget
   - wrk
+  - ykman
+  - yubikey-personalization
   - zsh-history-substring-search
 
 homebrew_taps:
@@ -60,10 +68,13 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - brave-browser
   - chromedriver
   - docker
-  - brave-browser
+  - notion
+  - ray
   - tableplus
+  - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
