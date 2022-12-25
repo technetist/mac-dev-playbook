@@ -71,6 +71,8 @@ homebrew_cask_apps:
   - brave-browser
   - chromedriver
   - docker
+  - font-hack-nerd-font
+  - font-jetbrains-mono
   - notion
   - ray
   - tableplus
